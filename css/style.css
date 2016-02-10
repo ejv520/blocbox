@@ -67,13 +67,6 @@ p {
 	}
 }
 
-@media (min-width: 1200px) {
-	.container {
-		width: 1170px;
-
-	}
-
-}
 
 @media screen and (min-width: 1200px) {
 	.w-container {
@@ -87,6 +80,7 @@ p {
 header {
 	color:#FFFFFF;
 	background: #49CBE3;
+	background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%) ;
 
 }
 header nav {
@@ -96,6 +90,11 @@ header nav ul {
 	display: inline;
 	text-align: right;
 	float:right;
+	margin:0;
+}
+header nav ul > li {
+	list-style-type: none;
+	display: inline-block;
 	margin:0;
 }
 
